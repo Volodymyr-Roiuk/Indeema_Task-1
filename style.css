@@ -1,0 +1,38 @@
+body {
+  margin: 0;
+}
+
+.form {
+  width: 300px;
+  margin: 150px auto;
+  padding: 15px;
+  border: 1px solid rgb(212, 212, 213);
+  border-radius: 5px;
+}
+
+.form > input {
+  box-sizing: border-box;
+  display: block;
+  margin: 15px auto;
+  width: 100%;
+  height: 40px;
+  border-radius: 7px;
+  outline: none;
+}
+
+.inputText {
+  border: 1px solid rgba(34, 36, 38, 0.15);
+  padding-left: 10px;
+}
+
+.inputText:focus {
+  border: 1px solid rgb(191, 191, 191);
+}
+
+.inputSubmit {
+  border: none;
+}
+
+.inputSubmit:focus {
+  background-color: rgb(191, 191, 191);
+}
